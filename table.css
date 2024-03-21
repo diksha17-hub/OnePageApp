@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 80%;
+    min-height: 300px;
+    border: 3px solid black;
+    margin: auto;
+}
+table,th,tr
+{
+    border: 1px solid#000;
+    border-collapse: collapse;
+
+}
+table{
+    text-align: center;
+    width: 95%;
+    height: 250px;
+
+}
+tr,td{
+    text-align: center;
+}
+th{
+    padding: 5px;
+    background-color:darkred;
+    color: white;
+}
+tr:hover
+{
+    background-color: orange;
+    color: white;
+    
+}
+.sid{
+    background-color: lightseagreen;
+}
+.sname{
+    background-color: rebeccapurple;
+}
+.sclass{
+    background-color: palevioletred;
+}
+.smarks
+{
+    background-color: aquamarine;
+}
